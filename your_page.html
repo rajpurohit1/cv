@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family&display=swap">
+    <title>Simple Buttons Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+        }
+        .top-buttons {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            background-color: #f3f3f3;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .btn {
+            margin: 0 10px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        
+        
+        .info {
+            margin-top: 40px;
+            color: #333;
+        }
+        .info h1 {
+            color: rgb(84, 100, 241);
+            font-family: 'Google Sans', system-ui;
+            text-align: center; 
+            font-size: 62px;
+            margin-bottom: 10px;
+        }
+        .info h3 {
+            font-family: 'Google Sans', system-ui;
+            text-align: center; 
+            font-size: 30px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .info p {
+            text-align: center; 
+            font-size: 16px;
+            color: #666;
+        }
+
+        
+        .container {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+             margin-top: 80px;
+        }
+        .section {
+            width: 30%;
+            background-color: #fff;
+            padding: 20px;
+            
+        }
+        .section img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 50px;
+        }
+        .section h3 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .section p {
+            font-family: 'Google Sans', sans-serif;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .section img {
+             width: 100px;
+            height: 100px;
+        }
+        
+        .about-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+            background-color: #5f7cf1;
+            gap: 40px;
+        }
+
+        .about-image {
+            flex: 1;
+        }
+
+        .about-image img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+        }
+
+        .about-text {
+            flex: 2;
+            font-family: Arial, sans-serif;
+        }
+
+        .about-text h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .about-text p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .portfolio-section {
+            max-width: 800px;         /* Limit width */
+            margin: 0 auto;           /* Center horizontally */
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #ffffff;
+            font-family: Arial, sans-serif;
+        }
+
+        .portfolio-section h2 {
+            font-size: 28px;
+            color: #f54646;
+            margin-bottom: 10px;
+        }
+
+        .portfolio-section p {
+            font-size: 18px;
+            color: #003366; /* dark blue */
+        }
+
+        
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="top-buttons">
+        <button class="btn" onclick="location.href='home.html'">Home</button>
+        <button class="btn" onclick="location.href='blog.html'">Blog</button>
+    </div>
+
+    
+    <div class="info">
+        <h1>Ishwar Singh Rajpurohit</h1>
+        <h3>Computer Engineer</h3>
+        <p>Collect, process, analyse apply ML Create Automation - from supporting everyday business decisions to driving global change</p>
+    </div>
+
+    
+    <div class="container">
+        <div class="section">
+            <img src="data-analytics.png" alt="Collect Icon">
+            <h3>Collect & Analysis</h3>
+            <p>collecting and analyzing data. gather relevant data, perform detailed analysis, and identify meaningful insights. I also focus on understanding the purpose of the data, its potential applications, and the specific requirements it fulfills..</p>
+        </div>
+        <div class="section">
+            <img src="data-engineer.png" alt="Collect Icon">
+            <h3>Data engineering & Statistics</h3>
+            <p>data engineering processes to manage, load, and structure the data through pipelines and architecture. This helps demonstrate how the data can be effectively used for machine learning models and other data-driven solutions.</p>
+        </div>
+        <div class="section">
+            <img src="automation.png" alt="Collect Icon">
+            <h3>Automation</h3>
+            <p>build automations using programming, data, and statistics to streamline data-related tasks. My goal is to demonstrate how data can be effectively used in machine learning models and data-driven solutions.</p>
+        </div>
+    </div>
+
+    
+    <div class="about-container">
+        <div class="about-image">
+            <img src="About_me.png" alt="About Me Image">
+        </div>
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+                I am Ishwar Singh Rajpurohit, a data engineer and analyst passionate about building smart data pipelines, applying machine learning, and delivering insights through impactful visualizations.
+            </p>
+            <p>
+                I support every step of the data journey — from collection and preparation to modeling and presentation. Available for freelance projects and long-term collaborations.
+            </p>
+        </div>
+    </div>
+
+        <div class="portfolio-section">
+        <h2>Portfolio</h2>
+        <p>A sample of my work</p>
+    </div>
+
+
+
+
+
+</body>
+</html>
